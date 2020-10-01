@@ -3,7 +3,8 @@
 This is just a really rough set up for Nimlang integrating into a Kinc c-file project.
 
 It's a throw-away I was using to learn Nim and Kinc at about the same time. It's 
-messier than any project I'd ever like to 
+messier than any project I'd ever like but hopefully someone
+finds this material helpful.
 
 
 If things aren't working just let me know. I'm not really focused on this anymore and 
@@ -31,6 +32,5 @@ Then, using visual studio, build the project for your platform. This project doe
 ## Other
 
 Also see nimlib/readme.md 
-
 
 The graphics (the .png files) in the Deployment folder are not my own.

@@ -17,6 +17,16 @@ First, include the nim-source directory . . . This should be handled by the kinc
 project.addIncludeDir('C:/Users/<user>/.choosenim/toolchains/nim-1.2.4/lib');
 ```
 
+### If above doesn't work:
+
+- Take the path to your nim library (example)
+`C:/Users/<example>/.choosenim/toolchains/nim-1.2.4/lib`
+- Open up your solution
+- Right click on your project ("Game" probably)
+- Select properties > C/C++ > General
+- Open "additional include directories" and add the nim library path
+    - Apply, and that should be it
+
 
 ### If you kept your files in nimcache
 Second, find the generated files from the build command in the cache folder andd add the c files to your project
